@@ -1,0 +1,300 @@
+*----------------------------------------------------------
+    Reset
+-----------------------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,embed { margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset,img { border: 0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style: normal; font-weight: normal; }
+li { list-style: none; }
+caption,th { text-align: left; }
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal; }
+q:before,q:after { content: ''; }
+abbr,acronym { border: 0; font-variant: normal; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+input,textarea,select { font-family: inherit; font-size: inherit; font-weight: inherit; font-size: 100%; }
+legend { color: #000000; }
+
+body{
+    background: url(../img/alkn_ptn.png);
+	background-color: #541b86;
+    overflow: scroll;
+}
+
+*{
+        margin: 0;
+        padding: 0;
+}
+
+/*----------------------------------------------------------
+    clearfix
+-----------------------------------------------------------*/
+.clearfix{
+	/zoom: 1;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+/*----------------------------------------------------------
+    base
+-----------------------------------------------------------*/
+
+#bg{
+    width: 800px;
+    height: 274px;
+    margin: 72px auto 72px auto;
+    overflow: hidden;
+    background: url(../img/alkn_logo.png)no-repeat;
+}
+
+#bg2{
+    width: 100%;
+    height: 100%;
+}
+
+#inner{
+    margin-top: 72px;
+    padding: 0px;
+    top: 0px;
+    left: 50%;
+    width: 550px;
+    margin:0 auto;
+}
+
+/*----------------------------------------------------------
+    text
+-----------------------------------------------------------*/
+
+.book{
+    margin-bottom: 72px;
+    margin-top: 72px;
+}
+
+.book .title{
+    text-indent: -9999px;
+    width: 399px;
+    height: 34px;
+    background: url(../img/alkn_title.png)no-repeat;
+    margin-bottom: 6px;
+}
+
+.book .sub{
+    text-indent: -9999px;
+    width: 153px;
+    height: 26px;
+    background: url(../img/alkn_sub.png)no-repeat;
+}
+
+.outline .circle{
+    text-indent: -9999px;
+    width: 399px;
+    height: 25px;
+    background: url(../img/alkn_circle.png)no-repeat;
+    margin-bottom: 21px;
+}
+
+.outline .date{
+    text-indent: -9999px;
+    width: 399px;
+    height: 25px;
+    background: url(../img/alkn_date.png)no-repeat;
+    margin-bottom: 21px;
+}
+
+.outline .booth{
+    text-indent: -9999px;
+    width: 399px;
+    height: 25px;
+    background: url(../img/alkn_booth.png)no-repeat;
+    margin-bottom: 21px;
+}
+.outline .price{
+    text-indent: -9999px;
+    width: 399px;
+    height: 25px;
+    background: url(../img/alkn_price.png)no-repeat;
+}
+
+p.auther{
+    text-indent: -9999px;
+    width: 108px;
+    height: 35px;
+    background: url(../img/alkn_member.png)no-repeat;
+    margin-bottom: 72px;
+    margin-top: 72px;
+}
+
+.member p{
+    margin-bottom: 30px;
+    width: 275px;
+    height: 45px;
+    float: left;
+}
+
+
+a {
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+a.t {
+    width: 50px;
+    height: 12px;
+    background: url(../img/alkn_t.png)no-repeat;
+}
+a.p {
+    width: 34px;
+    height: 12px;
+    background: url(../img/alkn_p.png)no-repeat;
+}
+
+a.u {
+    width: 29px;
+    height: 12px;
+    background: url(../img/alkn_u.png)no-repeat;
+}
+
+span.s {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 14px;
+    height: 12px;
+    background: url(../img/alkn_s.png)no-repeat;
+}
+
+span.name {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 72px;
+    height: 26px;
+    background: url(../img/alkn_m_01.png)no-repeat;
+}
+
+span.m01{
+    width: 72px;
+    background: url(../img/alkn_m_01.png)no-repeat;
+}
+span.m02{
+    width: 101px;
+    background: url(../img/alkn_m_02.png)no-repeat;
+}
+span.m03{
+    width: 145px;
+    background: url(../img/alkn_m_03.png)no-repeat;
+}
+span.m04{
+    width: 77px;
+    background: url(../img/alkn_m_04.png)no-repeat;
+}
+span.m05{
+    width: 71px;
+    background: url(../img/alkn_m_05.png)no-repeat;
+}
+span.m06{
+    width: 49px;
+    background: url(../img/alkn_m_06.png)no-repeat;
+}
+span.m07{
+    width: 98px;
+    background: url(../img/alkn_m_07.png)no-repeat;
+}
+span.m08{
+    width: 77px;
+    background: url(../img/alkn_m_08.png)no-repeat;
+}
+span.m09{
+    width: 72px;
+    background: url(../img/alkn_m_09.png)no-repeat;
+}
+span.m10{
+    width: 49px;
+    background: url(../img/alkn_m_10.png)no-repeat;
+}
+span.m11{
+    width: 118px;
+    background: url(../img/alkn_m_11.png)no-repeat;
+}
+span.m12{
+    width: 273px;
+    background: url(../img/alkn_m_12.png)no-repeat;
+}
+span.m13{
+    width: 76px;
+    background: url(../img/alkn_m_13.png)no-repeat;
+}
+span.m14{
+    width: 51px;
+    background: url(../img/alkn_m_14.png)no-repeat;
+}
+span.m15{
+    width: 27px;
+    background: url(../img/alkn_m_15.png)no-repeat;
+}
+span.m16{
+    width: 99px;
+    background: url(../img/alkn_m_16.png)no-repeat;
+}
+span.m17{
+    width: 99px;
+    background: url(../img/alkn_m_17.png)no-repeat;
+}
+span.m18{
+    width: 96px;
+    background: url(../img/alkn_m_18.png)no-repeat;
+}
+span.m19{
+    width: 52px;
+    background: url(../img/alkn_m_19.png)no-repeat;
+}
+span.m20{
+    width: 76px;
+    background: url(../img/alkn_m_20.png)no-repeat;
+}
+span.m21{
+    width: 148px;
+    background: url(../img/alkn_m_21.png)no-repeat;
+}
+span.m22{
+    width: 52px;
+    background: url(../img/alkn_m_22.png)no-repeat;
+}
+span.m23{
+    width: 74px;
+    background: url(../img/alkn_m_23.png)no-repeat;
+}
+span.m24{
+    width: 52px;
+    background: url(../img/alkn_m_24.png)no-repeat;
+}
+span.m25{
+    width: 76px;
+    background: url(../img/alkn_m_25.png)no-repeat;
+}
+span.m26{
+    width: 126px;
+    background: url(../img/alkn_m_26.png)no-repeat;
+}
+span.m27{
+    width: 76px;
+    background: url(../img/alkn_m_27.png)no-repeat;
+}
+span.m28{
+    width: 104px;
+    background: url(../img/alkn_m_28.png)no-repeat;
+}
+
+.copy{
+    margin-top: 72px;
+    margin-bottom: 72px;
+    font-size: 10px;
+    color: white;
+}
