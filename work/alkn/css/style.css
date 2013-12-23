@@ -17,7 +17,7 @@ legend { color: #000000; }
 
 body{
     background: url(../img/alkn_ptn.png);
-	background-color: #541b86;
+    background-color: #541b86;
     overflow: scroll;
 }
 
@@ -30,14 +30,14 @@ body{
     clearfix
 -----------------------------------------------------------*/
 .clearfix{
-	/zoom: 1;
+    /zoom: 1;
 }
 .clearfix:after{
-	content: ".";
-	display: block;
-	clear: both;
-	height: 0;
-	visibility: hidden;
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 
 /*----------------------------------------------------------
@@ -132,7 +132,7 @@ p.auther{
 .member p{
     margin-bottom: 30px;
     width: 275px;
-    height: 45px;
+    height: 145px;
     float: left;
 }
 
@@ -163,6 +163,11 @@ a.u {
     background: url(../img/alkn_u.png)no-repeat;
 }
 
+a.img{
+    display: block;
+    text-indent: 0px;
+}
+
 span.s {
     display: inline-block;
     text-indent: -9999px;
@@ -174,11 +179,11 @@ span.s {
 span.name {
     display: inline-block;
     text-indent: -9999px;
+    margin-bottom: 3px;
     width: 72px;
     height: 26px;
     background: url(../img/alkn_m_01.png)no-repeat;
 }
-
 span.m01{
     width: 72px;
     background: url(../img/alkn_m_01.png)no-repeat;
@@ -295,7 +300,6 @@ span.m29{
     width: 73px;
     background: url(../img/alkn_m_29.png)no-repeat;
 }
-
 .copy{
     margin-top: 72px;
     margin-bottom: 72px;
