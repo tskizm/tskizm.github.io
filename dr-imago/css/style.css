@@ -1,0 +1,189 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a img {
+  border: none; }
+
+img {
+  vertical-align: top; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+input, textarea {
+  outline: none; }
+
+/* --------------------------
+  Base
+----------------------------*/
+
+body {
+  font-family: 'Helvetica', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  background-image: url(../img/nnnnn_02_bg.png);
+  background-position: bottom;
+  background-size: cover;
+  color:#fff;
+  -webkit-text-size-adjust: 100%;
+  line-height: 2.2;
+}
+
+#container{
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 500px;
+}
+
+.op{
+  opacity: 0.7;
+}
+
+.header{
+  padding-top: 20px;
+}
+
+.catch{
+  margin: 80px 0px;
+}
+
+.info,
+.booth,
+.credit,
+.sample
+{
+  margin-bottom: 80px;
+}
+
+h3{
+  float: left;
+  width: 300px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+dl {
+  padding-left: 300px;
+  width: 600px;
+}
+
+dt {
+  clear: both;
+  float: left;
+  width: 300px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.booth p {
+  padding-left: 300px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.booth p.note{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+dd {
+  float: right;
+  width: 300px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+table{
+  width: 600px;
+}
+
+th{
+  width: 300px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+td{
+  width: 300px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+a{
+  color: #fff;
+  text-decoration: underline;
+}
+a:hover{
+  color: #CCC;
+}
+
+footer p{
+  padding-top: 100px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+footer li.twitter {
+  width: 68px;
+  margin: 0 auto;
+  list-style-type: none;
+  height: 20px
+}
+
+footer li.facebook {
+  width: 58px;
+  margin: 0 auto;
+  list-style-type: none;
+  height: 20px
+}
+
+
+/* clearfix ---------------------------------------- */
+.clearfix{
+  /zoom: 1;
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
